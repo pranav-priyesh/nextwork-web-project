@@ -1,61 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Nextwork CI/CD Deployment</title>
+    <title>CI/CD Project</title>
     <style>
         body {
+            background-color: #1e1e1e;
+            color: #ffffff;
             font-family: Arial, sans-serif;
-            background-color: #f2f6fc;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
             margin: 0;
+        }
+
+        h1 {
+            color: #00d8ff;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #ffd700;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: square;
             padding: 0;
         }
-        header {
-            background-color: #2d3e50;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        main {
-            padding: 40px;
-            text-align: center;
-        }
-        .status {
-            display: inline-block;
-            background-color: #d4edda;
-            color: #155724;
-            padding: 15px 25px;
-            border: 1px solid #c3e6cb;
-            border-radius: 5px;
+
+        li {
+            margin: 8px 0;
             font-size: 1.2em;
-            margin-top: 20px;
+            color: #ccc;
         }
-        footer {
-            background-color: #2d3e50;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+
+        .footer {
+            margin-top: 30px;
+            font-size: 0.8em;
+            color: #888;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Nextwork</h1>
-        <p>Continuous Integration & Deployment Platform</p>
-    </header>
-
-    <main>
-        <h2>🚀 Deployment Successful!</h2>
-        <div class="status">
-            This application was built and deployed using AWS CodeBuild & CodeDeploy.
-        </div>
-    </main>
-
-    <footer>
-        &copy; 2025 Nextwork DevOps Team
-    </footer>
+    <h1>Pranav Priyesh</h1>
+    <h2>CI/CD Project</h2>
+    <ul>
+        <li>Code Artifact</li>
+        <li>Code Build</li>
+        <li>Code Deploy</li>
+        <li>Code Pipeline</li>
+    </ul>
+    <div class="footer">Deployed with AWS CodeDeploy</div>
 </body>
 </html>
